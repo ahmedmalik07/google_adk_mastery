@@ -1,0 +1,28 @@
+.env
+__pycache__/
+.venv/
+*.db
+
+
+# Ignore all .env files in any subfolder
+**/.env
+
+# Explicitly ignore .env in these folders (redundant with above, but for clarity)
+9-callbacks/**/.env
+10-sequential-agent/**/.env
+11-parallel-agent/**/.env
+12-loop-agent/**/.env
+
+# Explicitly ignore .env in all agent folders from 1-basic-agent to 12-loop-agent
+1-basic-agent/**/.env
+2-tool-agent/**/.env
+3-litellm-agent/**/.env
+4-structured-outputs/**/.env
+5-sessions-and-state/**/.env
+6-persistent-storage/**/.env
+7-multi-agent/**/.env
+8-stateful-multi-agent/**/.env
+9-callbacks/**/.env
+10-sequential-agent/**/.env
+11-parallel-agent/**/.env
+12-loop-agent/**/.env
